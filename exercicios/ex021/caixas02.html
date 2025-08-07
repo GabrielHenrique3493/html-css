@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: rgb(100, 95, 95);
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 2px 2px 1px 1px rgba(0, 0, 0, 0.24);
+        }
+        footer{
+            text-align: center;
+            color: white;
+            background-color: black;
+            padding: 10px;
+            margin: 0px;        
+        }
+
+        nav{
+            background-color: rgb(99, 99, 99);
+            padding: 2px;
+            margin-right: 0px;
+            box-shadow: 2px 2px 1px 0.5px rgba(0, 0, 0, 0.514);
+        }
+
+        nav > a{
+
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            margin-right: 70px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+        }
+
+        article > aside{
+            background-color: rgb(117, 114, 114);
+            color: white;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+             <p>Esportes Tecnologia Mundo</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum omnis quasi minus dolorum consectetur est repellendus asperiores velit ex quos porro harum nostrum natus non magnam, facilis rerum libero maiores?</p>
+                <aside>
+                    <p>Artigo do monteiro lobato</p>
+                </aside>
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Gabriel Silva</p>
+    </footer>
+</body>
+</html>
