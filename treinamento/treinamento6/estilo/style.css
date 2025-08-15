@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: estela;
+    src: url(../fonte/Camiro.ttf);
+}
+
+@font-face {
+    font-family: not;
+    src: url(../fonte/NOTE\ BOOK.otf);
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: #540b0e;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-size: 10vw;
+    font-family: estela;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: #540b0e;
+}
+audio{
+    
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: not;
+    font-size: 3.5vw;
+}
+
+
+.normal{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.imagem > p{
+    display: inline-block;
+    background-color:#540b0dc4;
+    text-shadow: 1px 1px 0px black;
+    padding-left: 20px;
+}
+
+section#img01{
+    background-image: url(../imagem/veigh-2.webp);
+    background-position: center;
+    min-width: 400px;
+}
+
+section#img02{
+    background-image: url(../imagem/veigh-agua1.jpg);
+    background-position: center center;
+}
