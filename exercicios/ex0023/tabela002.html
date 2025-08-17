@@ -11,16 +11,37 @@
         table{
              width: 500px;
              border-collapse: collapse;
+             position: relative;
         }
         td, th{
             border: 1px solid black;
             padding: 10px;
         }
 
+        caption{
+            font-weight: bold;
+            font-size: 1.3em;
+            padding-bottom: 10px;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.473);
+
+        }
+
         thead{
             background-color: rgb(90, 90, 90);
             color: white;
         }
+
+        thead{
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
+        }
+
+        tbody > tr:nth-child(2n){
+            background-color: brown;
+        }
+
         tfoot{
             background-color: rgb(90, 90, 90);
             color: white;
@@ -33,10 +54,12 @@
 <body>
     <h1>uso de tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas
+        </caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col">população</th>
             </tr>
         </thead>     
         <tbody>
@@ -52,10 +75,159 @@
                 <td>rio de janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr><tr>
+                <td>sao paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>minas gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
         </tbody>
         <tfoot>
             <tr>
-                <th>total de habitantes</th>
+                <th scope="row">total de habitantes</th>
                 <td><strong>17.264.943</strong></td>
             </tr>
         </tfoot>
