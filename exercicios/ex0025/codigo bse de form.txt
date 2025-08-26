@@ -1,0 +1,11 @@
+<h1>exemplo de formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+
+
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
